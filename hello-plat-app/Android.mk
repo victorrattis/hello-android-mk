@@ -12,8 +12,8 @@ LOCAL_MODULE_TAGS := optional
 # os arquivos java dentro de src/.
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
 
-# A versão do Android SDK que irá ser usada para compilar o projeto.
-LOCAL_SDK_VERSION := current
+# Caso queria que o modulo seja compilado via Android SDK.
+# LOCAL_SDK_VERSION := current
 
 # Especifica o certificado que irá assinar o APK depois de compilado. Alguns
 # valores:
