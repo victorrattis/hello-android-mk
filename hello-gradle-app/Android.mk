@@ -9,6 +9,7 @@ LOCAL_MODULE := HelloApp
 # Referencia os arquivo de codigo do modulo, nessa caso o apk.
 LOCAL_SRC_FILES := app-debug.apk
 
+LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 
 # Especifica o certificado que irá assinar o APK depois de compilado. Alguns
